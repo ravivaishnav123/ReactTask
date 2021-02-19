@@ -1,0 +1,43 @@
+{
+  "Login": {
+    "welcome": "ローカライズされたアプリへようこそ{{name}}！",
+    "Forgot Your Password?": "パスワードをお忘れですか？",
+    "Email": "Eメール",
+    "Login":"ログインする",
+    "Password": "パスワード",
+    "DONT HAVE AN ACCOUNT?": "アカウントをお持ちではありませんか？",
+    "Register Now": "今すぐ登録"
+  },
+  "Dashboard": {
+    "Dashboard": "ダッシュボード",
+    "title": "題名",
+    "text": "私はすでに説明が不足していますLoremipsum"
+  },
+  "Setting": {
+    "Setting": "設定",
+    "Email": "Eメール",
+    "Name": "名前",
+    "Phone": "電話",
+    "Change Password": "パスワードを変更する",
+    "Enter Old Password": "古いパスワードを入力してください",
+    "Enter New password": "新しいパスワードを入力してください",
+    "Enter Confirm Password": "パスワードの確認を入力してください",
+    "Save": "セーブ",
+    "Cancel": "キャンセル"
+  },
+  "Register":{
+    "Full Name":"フルネーム",
+    "Phone":"電話",
+    "Password":"パスワード",
+    "Confirm Password":"パスワードを認証する",
+    "Email":"Eメール",
+    "Enter Your Name":"あなたの名前を入力してください",
+    "Enter Your Mobile Number":"携帯番号を入力してください",
+    "Enter Your Email":"メールアドレスを入力",
+    "Enter Your Password":"パスワードを入力してください",
+    "Enter Your Confirm Password":"確認パスワードを入力してください",
+    "HAVE AN ACCOUNT?":"アカウントを持っています？",
+    "Login":"ログインする",
+    "Register":"登録"
+  }
+}

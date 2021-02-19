@@ -1,0 +1,44 @@
+{
+  "Login": {
+    "welcome": "Welcome {{name}} to our localized app!",
+    "Forgot Your Password?": "Forgot Your Password ?",
+    "Email": "Email",
+    "Login": "LOGIN",
+    "Password": "Password",
+    "DONT HAVE AN ACCOUNT?": "DON'T HAVE AN ACCOUNT?",
+    "Please enter Password": ".Please enter Password",
+    "Register Now": "Register Now"
+  },
+  "Dashboard": {
+    "Dashboard": "Dashboard",
+    "title": "Title",
+    "text": "I'm already out of descriptions Lorem ipsum"
+  },
+  "Setting": {
+    "Setting": "Setting",
+    "Email": "Email",
+    "Name": "Name",
+    "Phone": "Phone",
+    "Change Password": "Change Password",
+    "Enter Old Password": "Enter Old Password",
+    "Enter New password": "Enter New password",
+    "Enter Confirm Password": "Enter Confirm Password",
+    "Save": "Save",
+    "Cancel": "Cancel"
+  },
+  "Register": {
+    "Full Name": "Full Name",
+    "Phone": "Phone",
+    "Password": "Password",
+    "Confirm Password": "Confirm Password",
+    "Email": "Email",
+    "Enter Your Name": "Enter Your Name",
+    "Enter Your Mobile Number": "Enter Your Mobile Number",
+    "Enter Your Email": "Enter Your Email",
+    "Enter Your Password": "Enter Your Password",
+    "Enter Your Confirm Password": "Enter Your Confirm Password",
+    "HAVE AN ACCOUNT?": "HAVE AN ACCOUNT?",
+    "Login": "LOGIN",
+    "Register": "Register"
+  }
+}

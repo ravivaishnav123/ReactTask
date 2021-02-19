@@ -1,0 +1,43 @@
+{
+  "Login": {
+    "welcome": "ยินดีต้อนรับคุณ {{name}} สู่แอปที่แปลเป็นภาษาท้องถิ่นของเรา!",
+    "Forgot Your Password?": "ลืมรหัสผ่านหรือไม่?",
+    "Email": "อีเมล์",
+    "Login": "เข้าสู่ระบบ",
+    "Password": "รหัสผ่าน",
+    "DONT HAVE AN ACCOUNT?": "ไม่มีบัญชี?",
+    "Register Now": "สมัครตอนนี้"
+  },
+  "Dashboard": {
+    "Dashboard": "แผงควบคุม",
+    "title": "หัวข้อ",
+    "text": "ฉันหมดคำอธิบาย Lorem ipsum แล้ว"
+  },
+  "Setting": {
+    "Setting": "การตั้งค่า",
+    "Email": "อีเมล์",
+    "Name": "ชื่อ",
+    "Phone": "โทรศัพท์",
+    "Change Password": "เปลี่ยนรหัสผ่าน",
+    "Enter Old Password": "ป้อนรหัสผ่านเก่า",
+    "Enter New password": "ใส่รหัสผ่านใหม่",
+    "Enter Confirm Password": "กรอกยืนยันรหัสผ่าน",
+    "Save": "บันทึก",
+    "Cancel": "ยกเลิก"
+  },
+  "Register": {
+    "Full Name": "ชื่อเต็ม",
+    "Phone": "โทรศัพท์",
+    "Password": "รหัสผ่าน",
+    "Confirm Password": "ยืนยันรหัสผ่าน",
+    "Email": "อีเมล์",
+    "Enter Your Name": "ป้อนหมายเลขโทรศัพท์มือถือของคุณ",
+    "Enter Your Mobile Number": "携帯番号を入力してください",
+    "Enter Your Email": "กรอกอีเมล์ของคุณ",
+    "Enter Your Password": "ใส่รหัสผ่านของคุณ",
+    "Enter Your Confirm Password": "ใส่รหัสยืนยันของคุณ",
+    "HAVE AN ACCOUNT?":"มีบัญชี?",
+    "Login": "เข้าสู่ระบบ",
+    "Register":"ลงทะเบียน"
+  }
+}

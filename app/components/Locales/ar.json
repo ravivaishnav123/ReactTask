@@ -1,0 +1,11 @@
+
+{
+    "Login": {
+      "welcome": "مرحبًا {{name}} في تطبيقنا المترجم!",
+      "login_button": "تسجيل الدخول",
+      "signup_button": "سجل"
+    },
+    "user_profile": {
+      "title": "Your Profile"  
+    }
+  }
