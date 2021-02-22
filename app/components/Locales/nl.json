@@ -1,42 +1,42 @@
 {
-   "Login": {
-      "welcome": "Welkom {{name}} bij onze gelokaliseerde app!",
-      "Forgot Your Password?": "Je wachtwoord vergeten?",
-      "Email": "E-mail",
-      "Login": "Log in",
-      "Password": "Wachtwoord",
-      "DONT HAVE AN ACCOUNT?": "GEEN ACCOUNT?",
-      "Register Now": "Registreer nu"
-   },
-   "Dashboard": {
-      "Dashboard": "Dashboard",
-      "title": "titel",
-      "text": "Ik heb al geen beschrijvingen Lorem ipsum"
-   },
-   "Setting": {
-      "Setting": "Instelling",
-      "Email": "E-mail",
-      "Name": "Naam",
-      "Phone": "Telefoon",
-      "Change Password": "Verander wachtwoord",
-      "Enter Old Password": "Voer het oude wachtwoord in",
-      "Enter New password": "Voer een nieuw wachtwoord in",
-      "Enter Confirm Password": "Voer het wachtwoord in",
-      "Save": "Opslaan",
-      "Cancel": "annuleren"
-   },
-   "Register": {
-      "Full Name": "Voor-en achternaam",
-      "Phone": "Telefoon",
-      "Password": "Wachtwoord",
-      "Confirm Password": "bevestig wachtwoord",
-      "Email": "E-mail",
-      "Enter Your Name": "Vul uw naam in",
-      "Enter Your Mobile Number": "Voer uw mobiele nummer in",
-      "Enter Your Email": "Voer uw e-mailadres in",
-      "Enter Your Password": "Voer uw wachtwoord in",
-      "Enter Your Confirm Password": "Voer uw bevestigingswachtwoord in",
-      "HAVE AN ACCOUNT?":"EEN ACCOUNT HEBBEN?",
-      "Register":"REGISTREREN"
-   }
+  "Login": {
+    "welcome": "Welkom {{name}} bij onze gelokaliseerde app!",
+    "Forgot Your Password?": "Je wachtwoord vergeten?",
+    "Email": "E-mail",
+    "Login": "Log in",
+    "Password": "Wachtwoord",
+    "DONT HAVE AN ACCOUNT?": "GEEN ACCOUNT?",
+    "Register Now": "Registreer nu"
+  },
+  "Dashboard": {
+    "Dashboard": "Dashboard",
+    "title": "titel",
+    "text": "Ik heb al geen beschrijvingen Lorem ipsum"
+  },
+  "Setting": {
+    "Setting": "Instelling",
+    "Email": "E-mail",
+    "Name": "Naam",
+    "Phone": "Telefoon",
+    "Change Password": "Verander wachtwoord",
+    "Enter Old Password": "Voer het oude wachtwoord in",
+    "Enter New password": "Voer een nieuw wachtwoord in",
+    "Enter Confirm Password": "Voer het wachtwoord in",
+    "Save": "Opslaan",
+    "Cancel": "annuleren"
+  },
+  "Register": {
+    "Full Name": "Voor-en achternaam",
+    "Phone": "Telefoon",
+    "Password": "Wachtwoord",
+    "Confirm Password": "bevestig wachtwoord",
+    "Email": "E-mail",
+    "Enter Your Name": "Vul uw naam in",
+    "Enter Your Mobile Number": "Voer uw mobiele nummer in",
+    "Enter Your Email": "Voer uw e-mailadres in",
+    "Enter Your Password": "Voer uw wachtwoord in",
+    "Enter Your Confirm Password": "Voer uw bevestigingswachtwoord in",
+    "HAVE AN ACCOUNT?": "EEN ACCOUNT HEBBEN?",
+    "Register": "REGISTREREN"
+  }
 }

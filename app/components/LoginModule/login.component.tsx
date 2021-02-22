@@ -153,7 +153,6 @@ class Login extends React.Component<any, any, State> {
 
   handleSubmit = values => {
     this.props.fetchUserLogin(values)
-
     // DEMO API IS NOT WORKING //
     this.props.setRouterValues({ "isUserLogin": true })
     this.props.setLoginValues({ 'isLoggedIn': false })

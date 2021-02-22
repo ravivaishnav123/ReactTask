@@ -22,18 +22,17 @@ export function translate(name, params = {}) {
 export const setI18nConfig = (appLanguage) => {
   // fallback if no available language fits
   const fallback = {languageTag: 'en', isRTL: false};
-
   const translations = appLanguage
     ? [appLanguage]
     : Object.keys(translationGetters);
-
   const {languageTag, isRTL} =
     RNLocalize.findBestAvailableLanguage(translations) || fallback;
-  console.log('lang', isRTL, languageTag);
 
   I18nManager.forceRTL(isRTL);
   i18n.translations = {[languageTag]: translationGetters[languageTag]()};
   i18n.locale = languageTag;
+
+  console.log('lang', isRTL, languageTag);
 };
 
 export default {setI18nConfig, translate};
