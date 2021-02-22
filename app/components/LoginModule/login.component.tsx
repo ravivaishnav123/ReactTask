@@ -67,7 +67,7 @@ class Login extends React.Component<any, any, State> {
 
   constructor(props: Props) {
     super(props)
-    this.getDefaulLang()
+   // this.getDefaulLang()
     this.state = {
       email: props.email || "",
       password: props.password || "",
@@ -78,21 +78,21 @@ class Login extends React.Component<any, any, State> {
   }
 
   componentDidMount() {
-    this.getDefaulLang()
+    //this.getDefaulLang()
   }
 
 
-  getDefaulLang() {
-    AsyncStorage.getItem("appLanguage")
-      .then(appLanguage => {
-        console.log("app language", appLanguage)
-        I18n.setI18nConfig(appLanguage)
-        this.forceUpdate()
-      })
-      .catch(error => {
-        console.error(error);
-      });
-  }
+  // getDefaulLang() {
+  //   AsyncStorage.getItem("appLanguage")
+  //     .then(appLanguage => {
+  //       console.log("app language", appLanguage)
+  //       I18n.setI18nConfig(appLanguage)
+  //       this.forceUpdate()
+  //     })
+  //     .catch(error => {
+  //       console.error(error);
+  //     });
+  // }
 
   updateEmail = (text: string) => {
     const reg = Constants.EMAILREG;
@@ -159,7 +159,6 @@ class Login extends React.Component<any, any, State> {
     this.props.setLoginValues({ 'isLoggedIn': false })
 
   }
-
 
   renderLoginContent() {
     const navigation = this.context;

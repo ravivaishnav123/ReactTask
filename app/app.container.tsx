@@ -29,7 +29,7 @@ class App extends React.Component<Props, State> {
   }
 
   componentDidMount() {
-
+    global.lang = "en"
     this.getDefaulLang();
   }
 
@@ -37,24 +37,22 @@ class App extends React.Component<Props, State> {
     AsyncStorage.getItem("appLanguage")
       .then(appLanguage => {
         console.log("app language", appLanguage)
+        global.lang = appLanguage
         this.setState({ appLanguage: appLanguage });
         I18n.setI18nConfig(appLanguage)
         this.getLoginInfo();
       })
       .catch(error => {
         console.error(error);
+        global.lang = "en"
       });
   }
 
 
   componentWillUnmount() {
-    //RNLocalize.removeEventListener("change", this.handleLocalizationChange);
+    //RNLocalize.("change", this.handleLocalizationChange);
   }
 
-  handleLocalizationChange = () => {
-    I18n.setI18nConfig(this.state.appLanguage);
-    this.forceUpdate();
-  };
 
   getLoginInfo = async () => {
     try {
