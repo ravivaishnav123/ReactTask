@@ -1,11 +1,9 @@
 // Imports: Dependencies
-import {all, fork} from 'redux-saga/effects';
+import { all, fork } from 'redux-saga/effects';
 //import {} from '../Register/registerAction';
 // Imports: Redux Sagas
-import {userRegister} from '../Register/registerAction';
-import {userLogin} from '../Login/loginAction';
-import { forgotPassword } from '../ForgotPassword/forgotPasswordAction';
+import {  } from '../Login/loginAction';
 // Redux Saga: Root Saga
 export function* rootSaga() {
-  yield all([fork(userRegister), fork(userLogin),fork(forgotPassword)]);
+  yield all([]);
 }

@@ -30,27 +30,13 @@ class App extends React.Component<Props, State> {
 
   componentDidMount() {
     global.lang = "en"
-    this.getDefaulLang();
+     this.getLoginInfo();
   }
 
-  getDefaulLang() {
-    AsyncStorage.getItem("appLanguage")
-      .then(appLanguage => {
-        console.log("app language", appLanguage)
-        global.lang = appLanguage
-        this.setState({ appLanguage: appLanguage });
-        I18n.setI18nConfig(appLanguage)
-        this.getLoginInfo();
-      })
-      .catch(error => {
-        console.error(error);
-        global.lang = "en"
-      });
-  }
+
 
 
   componentWillUnmount() {
-    //RNLocalize.("change", this.handleLocalizationChange);
   }
 
 
@@ -93,8 +79,8 @@ const mapStateToProps = (state) => {
 const mapDispatchToProps = (dispatch) => {
   // Action
   return {
-      setRouterValues : (data) => dispatch(setRouterValues(data)),
-      
+    setRouterValues: (data) => dispatch(setRouterValues(data)),
+
   };
 };
 

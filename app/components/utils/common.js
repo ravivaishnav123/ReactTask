@@ -35,6 +35,7 @@ export function showAlert(title, message) {
 }
 export function showAlertwithAction(title, message, actions) {
   Alert.alert(title, message, actions, { cancelable: false });
+  
 }
 
 

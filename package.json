@@ -33,6 +33,7 @@
     "react-native-keyboard-aware-scroll-view": "^0.9.1",
     "react-native-localize": "^1.4.3",
     "react-native-modal": "^11.5.6",
+    "react-native-page-control": "^1.1.2",
     "react-native-reanimated": "^1.9.0",
     "react-native-responsive-dimensions": "^3.1.1",
     "react-native-restart": "0.0.17",
